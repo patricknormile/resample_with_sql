@@ -147,7 +147,7 @@ from #Record_All_1
 last, choose the row with the longest span of time over a month.
 */
 
-select cust_id, yyyymm as month, status
+select cust_id, yyyymm as month, [status]
 into FINAL_TABLE
 from #Record_All_2
 where row_num = 1
